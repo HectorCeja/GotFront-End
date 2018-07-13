@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Westeros Inc</title>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/copo.png"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    	body,html{
+    		
+    		background: url(img/relieve.jpg); 
+  			background-repeat: no-repeat; 
+  			background-size: cover; 
+  			background-attachment: fixed; 
+    	}
+    </style>
+</head>
+<body>
+
+	<!--Barra de navegación
+	-->
+	<header>
+		<nav>
+		    <div class="nav-wrapper   red darken-1">
+		      <a href="login.html" class="brand-logo center">Iniciar Sesión</a>
+		    </div>
+		</nav>
+	</header>	
+	<br>
+	<br>
+	
+	<section class="container">
+		<div class="card-panel z-depth-2 centrico  blue lighten-4 bordico">
+		 <div class="login">
+	      <p class="center"><i class="material-icons icon-content center">account_circle</i></p>
+	      <form  action="index.html">
+	        <div class="row">
+		        <div class="input-field col s12 ">
+
+		          <input id="email"  type="email" class="validate" required="">
+		          <label for="email" class="black-text"><i class="material-icons ">account_circle</i>  Usuario o Email</label>
+		        </div>
+		    </div>
+	       	<div class="row">
+		        <div class="input-field col s12">
+		          <input id="password" type="password" class="validate" required="">
+		          <label for="password"  class="black-text"><i class="material-icons">vpn_key</i>  Contraseña</label>
+		        </div>
+		    </div>
+	        <p class="center"><input class="submit waves-effect waves-light btn" type="submit" name="commit" value="Entrar" ></p>
+	      </form>
+	    </div>
+	    </div>	
+	</section>
+	<!--Importar primero el jquery-->
+	<script src="js/jquery.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/funciones.js"></script>
+	
+	
+</body>
+</html>

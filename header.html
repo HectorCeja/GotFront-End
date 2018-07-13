@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>ConCrédito</title>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Importar primero el jquery-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/funciones.js"></script>
+	<script>
+		$(document).ready(function(){
+							$("#btns").toggle(
+
+					       
+					        function(e){ 
+					            $('#panel-oculto').slideDown();
+					            $(this).text('Cerrar el panel');
+					            e.preventDefault();
+					        }, // Separamos las dos funciones con una coma
+					     
+					        
+					        function(e){ 
+					            $('#panel-oculto').slideUp();
+					            $(this).text('Mostrar el panel oculto');
+					            e.preventDefault();
+					        }
+					 <a href="http://es.tinypic.com?ref=2hzolep" target="_blank"><img src="http://i66.tinypic.com/2hzolep.jpg" border="0" alt="Image and video hosting by TinyPic"></a>
+					        );
+		});
+	</script>
+ 
+</head>
+<body>
+
+	<div id="panel-oculto" style="display:none;">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</div>
+
+	<div>
+		<a href="#" id="btns">Mostrar</a>
+		
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Westeros Inc</title>
+	<!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/copo.png"/>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+ 
+</head>
+<body>
+	<!--Barra de navegación
+	-->
+  
+
+	<header>
+	<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper blue darken-4">
+		    	<ul id="slide-out" class="side-nav">
+			    	<li><div class="userView top" id="uservieww">
+			      		<div><a href=""><i class="material-icons right white-text">clear</i></a>
+			      		</div>
+			      		<span class="center"><a href="#!user" ><img class="circle" src="img/perfil.jpg"></a></span>
+			      		<a href="#!name"><span class="white-text name  center">Héctor Ceja Gómez</span></a>
+			      		<a href="#!email"><span class="white-text email center">cejagomezhector@gmail.com</span></a>
+			      		<img class="background" src="img/fondomenu.jpg">
+			    	</div></li>
+			    	<li><div class="fixed-action-btn horizontal"><a href="#!">Historia</a></div></li>
+			    	<li><a href="#!">Programas</a></li>
+			    	<li><a href="#!">Detalles</a></li>
+			    	<li><a href="#!">Cosas</a></li>
+			    	<li><a href="#!">Papa</a></li>
+			    	<li><a href="#!">Florero</a></li>
+			    	
+			  	</ul>
+			  	 <a href="#" data-activates="slide-out" class="button-collapse left show-on-large"><i class="material-icons">menu</i></a>
+		      <a id="titulo" href="index.html" class="brand-logo center">Westeros</a>
+		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li ><a href="#inicio" class="waves-effect waves-light"><i class="material-icons left red-text">home</i>Inicio</a></li>
+		        <li><a href="#acerca"  class="waves-effect waves-light"><i class="material-icons left yellow-text">help</i>Acerca</a></li>
+		        <li><a href="#footer-contact"  class="waves-effect waves-light"><i class="material-icons left green-text">email</i>Contacto</a></li>
+		        <li><a href="login.html" onclick="return salir();" id="logout"  class="waves-effect waves-light"><i class="material-icons left white-text">exit_to_app</i>Salir</a></li>
+		      </ul>
+		      <ul class="side-nav" id="mobile-demo">
+		        <li ><a href="#inicio" class="waves-effect waves-light"><i class="material-icons left red-text">home</i>Inicio</a></li>
+		        <li><a href="#acerca"  class="waves-effect waves-light"><i class="material-icons left yellow-text">help</i>Acerca</a></li>
+		        <li><a href="#footer-contact"  class="waves-effect waves-light"><i class="material-icons left green-text">email</i>Contacto</a></li>
+		        <li><a href="login.html" onclick="return salir();" id="logout"  class="waves-effect waves-light "><i class="material-icons left black-text">exit_to_app</i>Salir</a></li>
+		      </ul>
+		    </div>
+		</nav>
+	</div>
+	</header>
+	
+	<section id="inicio">
+		<div class="ro">
+			
+				 <div class="slider">
+				    <ul class="slides">
+				      <li>
+				        <img src="img/bara.jpg"> <!-- random image -->
+				        <div class="caption center-align">
+				          <h3>House Baratheon</h3>
+				          <h5 class="light grey-text text-lighten-3">Our is the fury!</h5>
+				        </div>
+				      </li>
+				      <li>
+				        <img src="img/lan.png"> <!-- random image -->
+				        <div class="caption left-align">
+				          <h3>House Lannister</h3>
+				          <h5 class="light grey-text text-lighten-3">Hear me roar!</h5>
+				        </div>
+				      </li>
+				      <li>
+				        <img src="img/tar.jpg"> <!-- random image -->
+				        <div class="caption right-align">
+				          <h3>House Targaryen</h3>
+				          <h5 class="light grey-text text-lighten-3">Fire and Blood</h5>
+				        </div>
+				      </li>
+				      <li>
+				        <img src="img/sta.jpg"> <!-- random image -->
+				        <div class="caption left-align">
+				          <h3>House Stark</h3>
+				          <h5 class="light grey-text text-lighten-3">Winter is coming!</h5>
+				        </div>
+				      </li>
+				    </ul>
+				</div>
+		</div>
+	</section>
+	<br>
+	
+	<!--Grid
+	-->
+	<section id="acerca" >
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m4 ">
+				
+			        <div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator" src="img/aegon.jpg">
+					    </div>
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Aegon I Targaryen<i class="material-icons right">more_vert</i></span>
+					      <p><a href="http://hieloyfuego.wikia.com/wiki/Aegon_Targaryen" target="_blank">Wiki</a></p>
+					    </div>
+					    <div class="card-reveal">
+					      <span class="card-title grey-text text-darken-4">Aegon I Targaryen<i class="material-icons right">close</i></span>
+					      <p>El rey Aegon I Targaryen, llamado Aegon el Conquistador, Aegon Lordragón y Aegon el Dragón, fue el conquistador de los Siete Reinos y fundador de la dinastía Targaryen que reinó en Poniente por casi 300 años. </p>
+					    </div>
+					</div>
+			</div>
+			<div class="col s12 m8">
+				<div class="col s12 m4">
+					<div class="card-panel z-depth-2 wi">
+						<div class="center">
+						<i class="material-icons icon-content">favorite</i>
+						</div>
+						<p class="center">Aegon tuvo un hijo con cada una de sus esposas; Maegor con Visenya y Aenys con Rhaenys.</p>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+					<div class="card-panel z-depth-2 wi">
+						<div class="center">
+						<i class="material-icons icon-content">thumb_up</i>
+						</div>
+						<p class="center">Tenía un dragon llamado Balerion alias el terror negro.</p>
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+					<div class="card-panel z-depth-2 wi">
+						<div class="center">
+						<i class="material-icons icon-content">android</i>
+						</div>
+						<p class="center">Usó un dispositivo android porque no le gustaban los dispositivos tanto de Windows Phone como de Apple</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	
+	<section>
+	<div class="container  ">
+		<ul class="collapsible popout centered" data-collapsible="accordion">
+		    <li>
+		      <div class="collapsible-header indigo white-text"><i class="material-icons">filter_drama</i>Reinos Conquistados</div>
+		      <div class="collapsible-body red">
+		      	 <ul class="center">
+		      	<li>Norte</li>
+		      	<li>Valle</li>
+		      	<li>De la roca</li>
+		      	<li>De los rios</li>
+		      	<li>Del dominio</li>
+		      	<li>De la tormenta</li>	
+		      	<li>De la corona</li>
+		      </ul>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header indigo white-text"><i class="material-icons">place</i>Habilidades y extras</div>
+		      <div class="collapsible-body red"><p>HTML5, CSS3, JavaScript, JSON, AJAX, uso de Materialize</p></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header indigo white-text"><i class="material-icons">whatshot</i>Sistemas Operativos</div>
+		      <div class="collapsible-body red">
+		      <ul class="center">
+		      	<li>Windows</li>
+		      	<li>Mac OS</li>
+		      	<li>Ubuntu</li>	
+		      </ul>
+		      </div>
+		    </li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+	<table class="bordered red lighten-1 centered">
+        <thead>
+          <tr>
+              <th data-field="id">Nombre</th>
+              <th data-field="name">Arma</th>
+              <th data-field="price">Precio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Jon Snow</td>
+            <td>Garra</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Arthur Dayne</td>
+            <td>Albor</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Brienne of Tarth</td>
+            <td>Oathkeeper</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+	<br>
+	<br>
+
+	</section>
+	 <div class="fixed-action-btn vertical click-to-toggle" style="bottom: 45px; right: 24px;">
+	    <a class="btn-floating btn-large red  waves-effect waves-light">
+	      <i class="material-icons">mode_edit</i>
+	    </a>
+	    <ul>
+	      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+	      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+	      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+	      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+	    </ul>
+	</div>
+
+  <section id="section-parallax" class="marginFoot">
+  	<div class="parallax-container">
+	    <div class="parallax"><img src="img/tar.jpg"></div>
+	  </div>
+	  <div class="section white">
+	    <div class="row container">
+	      <h2 class="header">Game of Thrones</h2>
+	      <p class="grey-text text-darken-3 lighten-3">La dvd es una serie bien chingona.</p>
+	    </div>
+	  </div>
+	  <div class="parallax-container marginFoot">
+	    <div class="parallax"><img src="img/bara.jpg"></div>
+	</div>
+  </section>
+
+  <footer  id="footer-contact" class="page-footer marginFooter marginFoot blue darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contacto</h5>
+                <p class="grey-text text-lighten-4">Puedes contactarme a través de las redes sociales</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Redes Sociales</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/Hector.Lannister" target="_blank">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/Hector_Plant" target="_blank">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright Héctor Ceja Gómez
+            <a class="grey-text text-lighten-4 right" onclick="alert(":v");" href="">:v</a>
+            </div>
+          </div>
+   </footer>
+
+	<!--Importar primero el jquery-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/funciones.js"></script>
+	
+	
+</body>
+</html>
